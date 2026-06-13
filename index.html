@@ -9,6 +9,31 @@
 </head>
 <body>
   <h1>Tic Tac Toe</h1>
+
+  <div class="settings">
+    <label>Mode:
+      <select id="mode">
+        <option value="two">Two-player</option>
+        <option value="single">Single-player</option>
+      </select>
+    </label>
+
+    <label>Difficulty:
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </label>
+
+    <label>AI plays:
+      <select id="aiSymbol">
+        <option value="O">O</option>
+        <option value="X">X</option>
+      </select>
+    </label>
+  </div>
+
   <div id="status">Turn: <span id="turn">X</span></div>
   <div id="board" class="board"></div>
   <div class="controls">
